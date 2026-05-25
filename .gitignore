@@ -1,0 +1,18 @@
+# ── Images lourdes (à uploader manuellement sur Infomaniak) ──
+assets/img/Doyen.jpg
+assets/img/Students.jpg
+assets/img/doyen_picture.jpg
+assets/img/Enseignants_pour_Ecole_Communautaire.jpg
+assets/img/Enseignants.jpg
+
+# ── Fichiers uploadés par les utilisateurs ──
+assets/uploads/
+bibliotheque/assets/uploads/
+
+# ── Fichiers système ──
+.DS_Store
+Thumbs.db
+php.ini
+
+# ── Configurations sensibles (sécurité) ──
+config/database.php

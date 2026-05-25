@@ -1,0 +1,29 @@
+# FaMaKo — .htaccess racine
+Options -Indexes
+AddDefaultCharset UTF-8
+
+# Bloquer accès direct config/
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^config(/.*)?$ - [F,L]
+</IfModule>
+
+# Bloquer fichiers sensibles
+<FilesMatch "\.(sql|md|env|log|sh|bak)$">
+    Require all denied
+</FilesMatch>
+
+# PHP upload limits (override si permis)
+<IfModule mod_php.c>
+    php_value upload_max_filesize 5120M
+    php_value post_max_size 5120M
+    php_value max_execution_time 600
+    php_value memory_limit 512M
+</IfModule>
+
+# Sécurité headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
