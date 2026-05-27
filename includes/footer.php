@@ -41,18 +41,25 @@
         </ul>
       </div>
 
-      <div class="col-6 col-md-4 col-lg-2">
-        <h6 class="footer-heading">Ressources</h6>
-        <ul class="footer-links">
-</li>  <li><a href="<?= BASE_URL ?>/pages/cours.php">Cours PDF/Vidéo</a></li>
-          <li><a href="<?= BASE_URL ?>/pages/historique.php">Histoire Faculté</a></li>
-          <li>
-            <a href="https://www.youtube.com/@famako" target="_blank">
-              <i class="fab fa-youtube me-2" style="color:#ff0000"></i>Chaîne YouTube
-            </a>
-          </li>
-        </ul>
-      </div>
+     <h6 class="footer-heading">Ressources</h6>
+<ul class="footer-links">
+  <li><a href="<?= BASE_URL ?>/pages/cours.php">Cours PDF/Vidéo</a></li>
+  <li><a href="<?= BASE_URL ?>/pages/historique.php">Histoire Faculté</a></li>
+  <li>
+    <a href="https://www.youtube.com/@famako" target="_blank">
+      <i class="fab fa-youtube me-2" style="color:#ff0000"></i>Chaîne YouTube
+    </a>
+  </li>
+  <li style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.08);">
+    <a href="https://us06web.zoom.us/j/87948815783?pwd=p2fjRPConAr2gkbrJFFPzBb2BmaxAz.1" target="_blank">
+      <i class="fas fa-video me-2" style="color:#2D8CFF"></i>Cours en ligne Zoom
+    </a>
+  </li>
+  <li style="font-size:.75rem;opacity:.6;padding-left:1.4rem;">
+    Lun · Mer · Sam — 18h00 (Bangui)<br>
+    ID: 879 4881 5783 · Code: 014224
+  </li>
+</ul>
 
       <div class="col-6 col-md-4 col-lg-2">
         <h6 class="footer-heading">Contact</h6>

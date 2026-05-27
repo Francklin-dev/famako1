@@ -194,7 +194,46 @@ $stats = [
   </div>
 </section>
 </main>
-
+<!-- ZOOM BANNER -->
+<section class="py-4" style="background:#1a1a2e;border-top:3px solid #2D8CFF;">
+  <div class="container">
+    <div class="row align-items-center g-3">
+      <div class="col-lg-8">
+        <div class="d-flex align-items-center gap-3 flex-wrap">
+          <span style="background:#2D8CFF;border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+            <i class="fas fa-video text-white"></i>
+          </span>
+          <div>
+            <h5 style="color:#fff;margin:0;font-weight:700;">
+              <span data-lang="fr">Cours en ligne — Zoom FaMaKo</span>
+              <span data-lang="en">Online Classes — FaMaKo Zoom</span>
+            </h5>
+            <p style="color:rgba(255,255,255,.7);margin:0;font-size:.85rem;">
+              <span data-lang="fr">Rejoignez nos cours en direct chaque Lundi, Mercredi et Samedi à 18h00 (heure de Bangui). ID : 879 4881 5783 · Code : 014224</span>
+              <span data-lang="en">Join our live classes every Monday, Wednesday and Saturday at 6:00 PM (Bangui time). ID: 879 4881 5783 · Code: 014224</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 d-flex gap-2 flex-wrap justify-content-lg-end">
+        <a href="https://us06web.zoom.us/j/87948815783?pwd=p2fjRPConAr2gkbrJFFPzBb2BmaxAz.1"
+           target="_blank"
+           style="background:#2D8CFF;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:600;font-size:.9rem;">
+          <i class="fas fa-video me-2"></i>
+          <span data-lang="fr">Rejoindre le cours</span>
+          <span data-lang="en">Join class</span>
+        </a>
+        <a href="https://us06web.zoom.us/meeting/tZMkc-Ggrz4tEtdvq2jOgjsveYpZr_3jaQKo/ics?icsToken=DB5rd415Ykkg9HzPeAAALAAAAMQgQF2cZFjZ7AukV0E-aX-rnxKjjADyD6dZmt-4PDuIeU6jvhzhZXjqWmh_OxqJh5sZvQmQIucwb-k8PDAwMDAwMQ&meetingMasterEventId=C5a8DuobTiq666ZE7iUEuA"
+           target="_blank"
+           style="background:transparent;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:600;font-size:.9rem;border:1px solid rgba(255,255,255,.3);">
+          <i class="fas fa-calendar-plus me-2"></i>
+          <span data-lang="fr">Ajouter au calendrier</span>
+          <span data-lang="en">Add to calendar</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- CHAT WIDGET -->
 <div class="chat-widget">
   <button class="chat-button" id="chatButton"><i class="fas fa-comments"></i></button>

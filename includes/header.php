@@ -35,10 +35,15 @@ $page_actuelle = basename($_SERVER['PHP_SELF'], '.php');
           <button class="lang-btn active" id="langFr">FR</button>
           <button class="lang-btn" id="langEn">EN</button>
         </div>
-        <div class="d-flex gap-2">
-          <a href="#"><i class="fab fa-facebook-f fa-xs"></i></a>
-          <a href="#"><i class="fab fa-youtube fa-xs"></i></a>
-        </div>
+        <div class="d-flex gap-2 align-items-center">
+  <a href="#"><i class="fab fa-facebook-f fa-xs"></i></a>
+  <a href="https://www.youtube.com/@famako" target="_blank"><i class="fab fa-youtube fa-xs"></i></a>
+  <a href="https://us06web.zoom.us/j/87948815783?pwd=p2fjRPConAr2gkbrJFFPzBb2BmaxAz.1"
+     target="_blank"
+     style="background:#2D8CFF;color:#fff;padding:2px 10px;border-radius:4px;font-size:.75rem;text-decoration:none;font-weight:600;">
+    <i class="fas fa-video me-1"></i>Zoom
+  </a>
+</div>
       </div>
     </div>
   </div>
