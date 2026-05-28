@@ -16,3 +16,6 @@ php.ini
 
 # ── Configurations sensibles (sécurité) ──
 config/database.php
+import.php
+test_bdd.php
+fix_tables.php
