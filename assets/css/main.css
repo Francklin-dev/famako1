@@ -269,6 +269,21 @@ textarea.form-control-custom{resize:vertical;min-height:100px}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.08);margin-top:44px;padding-top:22px;font-size:.77rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 .footer-bottom a{color:rgba(255,255,255,.4);transition:color .2s}
 .footer-bottom a:hover{color:var(--accent)}
+/* ── ZOOM LINK ───────────────────────────────────────────── */
+.footer-links .zoom-info{
+  font-size:.72rem;
+  opacity:.55;
+  padding-left:1.6rem;
+  line-height:1.6;
+  color:rgba(255,255,255,.5);
+}
+.footer-links .zoom-link a{
+  color:#2D8CFF !important;
+  font-weight:600;
+}
+.footer-links .zoom-link a:hover{
+  color:#5aabff !important;
+}
 
 /* ── CHAT WIDGET ─────────────────────────────────────────── */
 .chat-widget{position:fixed;bottom:24px;right:24px;z-index:1001}
