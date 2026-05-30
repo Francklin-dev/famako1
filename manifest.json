@@ -1,23 +1,27 @@
-{
-  "name": "Faculté Maïngo Ködörö",
+{.{git{,ignore},htaccess},a{dmin,ssets},c{heck.php,onfig},fix_{historique.php,passwords.php},in{cludes,dex.php},manifest.json,nettoyer_doublons.php,p{ages,hp.ini},s{ql,upprimer_doublon.php},test.md} 
+  "name": "Faculté Maïngo Ködörö - FaMaKo",
   "short_name": "FaMaKo",
-  "description": "Application officielle de la Faculté Maïngo Ködörö",
-  "start_url": "/",
+  "description": "Application officielle de la Faculté Maïngo Ködörö - Sciences de l'Education, Bangui RCA",
+  "start_url": "https://famako-edu.org/",
+  "scope": "https://famako-edu.org/",
   "display": "standalone",
-  "background_color": "#0a2342",
-  "theme_color": "#c9a84c",
+#  "background_color": "
+0a2342",
+#  "theme_color": "
+c9a84c",
   "orientation": "portrait",
   "lang": "fr",
-  "icons": [
-    {
-      "src": "/assets/img/logo_famako.png",
+  "categories": ducation"
+{.{git{,ignore},htaccess},a{dmin,ssets},c{heck.php,onfig},fix_{historique.php,passwords.php},in{cludes,dex.php},manifest.json,nettoyer_doublons.php,p{ages,hp.ini},s{ql,upprimer_doublon.php},test.md} 
+      "src": "https://famako-edu.org/assets/img/logo_famako.png",
       "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/img/logo_famako.png",
+      "type": "image/png",
+      "purpose": "any maskable"
+    ,
+    {.{git{,ignore},htaccess},a{dmin,ssets},c{heck.php,onfig},fix_{historique.php,passwords.php},in{cludes,dex.php},manifest.json,nettoyer_doublons.php,p{ages,hp.ini},s{ql,upprimer_doublon.php},test.md} 
+      "src": "https://famako-edu.org/assets/img/logo_famako.png",
       "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
-}
+      "type": "image/png",
+      "purpose": "any maskable"
+    
+  
