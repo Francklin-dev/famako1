@@ -1,0 +1,23 @@
+{
+  "name": "Faculté Maïngo Ködörö",
+  "short_name": "FaMaKo",
+  "description": "Application officielle de la Faculté Maïngo Ködörö",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a2342",
+  "theme_color": "#c9a84c",
+  "orientation": "portrait",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/assets/img/logo_famako.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/logo_famako.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

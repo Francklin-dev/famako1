@@ -30,10 +30,10 @@ require_once __DIR__ . '/../includes/header.php';
         <div class="section-label">Mission</div>
         <h2 class="section-title"><span data-lang="fr">Qui sommes-nous ?</span><span data-lang="en">Who are we?</span></h2>
         <div class="section-divider"></div>
-        <p><span data-lang="fr">La Faculté Maïngo Ködörö est un centre d'excellence créé en partenariat avec l'Université de Bangui. D'inspiration Baha'ie, elle vise à former des cadres spécialisés en Sciences de l'Éducation capables de contribuer au développement durable de la République Centrafricaine.</span>
-        <span data-lang="en">Maïngo Ködörö Faculty is a center of excellence created in partnership with the University of Bangui. Baha'i-inspired, it aims to train specialized executives in Educational Sciences capable of contributing to the sustainable development of the Central African Republic.</span></p>
+        <p><span data-lang="fr">La Faculté Maïngo Ködörö est un centre d'excellence en Sciences de l'éducation créé à Bangui. D'inspiration Baha'ie, la Faculté vise à former des cadres spécialisés en Sciences de l'Éducation capables de contribuer aux activités éducatives et de développement humain durable au bénéfice des territoires de la République Centrafricaine et d'autres pays.</span>
+        <span data-lang="en">Maïngo Ködörö Faculty is a center of excellence in Educational Sciences created in Bangui. Baha'i-inspired, the Faculty aims to train specialized executives in Educational Sciences capable of contributing to educational activities and sustainable human development for the benefit of the territories of the Central African Republic and other countries.</span></p>
         <div class="row g-3 mt-3">
-          <div class="col-6"><div style="background:var(--white);border-radius:var(--radius);padding:16px;text-align:center;box-shadow:var(--shadow-sm);"><div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--accent);">13</div><div style="font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;"><span data-lang="fr">Disciplines</span><span data-lang="en">Disciplines</span></div></div></div>
+          <div class="col-6"><div style="background:var(--white);border-radius:var(--radius);padding:16px;text-align:center;box-shadow:var(--shadow-sm);"><div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--accent);">DSPR</div><div style="font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;"><span data-lang="fr">Programme</span><span data-lang="en">Program</span></div></div></div>
           <div class="col-6"><div style="background:var(--white);border-radius:var(--radius);padding:16px;text-align:center;box-shadow:var(--shadow-sm);"><div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--accent);">2018</div><div style="font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;"><span data-lang="fr">Fondée</span><span data-lang="en">Founded</span></div></div></div>
         </div>
       </div>
@@ -41,7 +41,7 @@ require_once __DIR__ . '/../includes/header.php';
         <!-- VIDÉO DOYEN -->
         <div style="border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lg);">
           <div style="position:relative;padding-top:56.25%;">
-            <iframe src="https://youtu.be/4kPMSTrp6s4"
+            <iframe src="https://www.youtube.com/embed/4kPMSTrp6s4"
               title="Présentation du Doyen"
               style="position:absolute;top:0;left:0;width:100%;height:100%;"
               frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

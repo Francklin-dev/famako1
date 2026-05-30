@@ -188,7 +188,7 @@ $stats = [
       </div>
       <div class="col-lg-5 d-flex gap-3 flex-wrap justify-content-lg-end">
         <a href="<?= BASE_URL ?>/pages/inscription.php" class="btn-primary-custom"><span data-lang="fr">S'inscrire maintenant</span><span data-lang="en">Register now</span> <i class="fas fa-arrow-right ms-1"></i></a>
-        <a href="<?= BASE_URL ?>/pages/frais.php" class="btn-outline-navy"><span data-lang="fr">Voir les frais</span><span data-lang="en">See fees</span></a>
+        <a href="<?= BASE_URL ?>/pages/inscriptions.php" class="btn-outline-navy"><span data-lang="fr">Inscriptions</span><span data-lang="en">Enrollment</span></a>
       </div>
     </div>
   </div>

@@ -71,7 +71,7 @@ $page_actuelle = basename($_SERVER['PHP_SELF'], '.php');
         <li class="nav-item"><a class="nav-link <?= $page_actuelle==='historique'?'active':'' ?>" href="<?= BASE_URL ?>/pages/historique.php"><span data-lang="fr">Histoire</span><span data-lang="en">History</span></a></li>
         <li class="nav-item"><a class="nav-link <?= $page_actuelle==='cours'?'active':'' ?>" href="<?= BASE_URL ?>/pages/cours.php"><span data-lang="fr">Cours</span><span data-lang="en">Courses</span></a></li>
         <li class="nav-item"><a class="nav-link <?= $page_actuelle==='td'?'active':'' ?>" href="<?= BASE_URL ?>/pages/td.php"><span data-lang="fr">Travaux Dirigés</span><span data-lang="en">Practical Exercises</span></a></li>
-        <li class="nav-item"><a class="nav-link <?= $page_actuelle==='frais'?'active':'' ?>" href="<?= BASE_URL ?>/pages/frais.php"><span data-lang="fr">Frais</span><span data-lang="en">Fees</span></a></li>
+        <li class="nav-item"><a class="nav-link <?= $page_actuelle==='inscriptions'?'active':'' ?>" href="<?= BASE_URL ?>/pages/inscriptions.php"><span data-lang="fr">Inscriptions</span><span data-lang="en">Enrollment</span></a></li>
         <li class="nav-item"><a class="nav-link <?= $page_actuelle==='contact'?'active':'' ?>" href="<?= BASE_URL ?>/pages/contact.php"><span data-lang="fr">Contact</span><span data-lang="en">Contact</span></a></li>
       </ul>
       <a href="<?= BASE_URL ?>/pages/inscription.php" class="btn-inscription">

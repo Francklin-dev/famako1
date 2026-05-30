@@ -24,25 +24,15 @@ require_once __DIR__ . '/../includes/header.php';
       <div class="col-lg-8">
         <div class="famako-card p-4 mb-4">
           <h3 style="color:var(--navy);margin-bottom:14px;"><i class="fas fa-university me-2" style="color:var(--accent)"></i><span data-lang="fr">Centre d'excellence</span><span data-lang="en">Center of excellence</span></h3>
-          <p><span data-lang="fr">La Faculté Maïngo Ködörö, créée en partenariat avec l'Université de Bangui, est un centre d'excellence pour la formation des cadres spécialisés en Sciences de l'Éducation. Notre programme comprend une année de Diplôme Supérieur de Préparation à la Recherche (DSPR), pouvant faire office pour l'inscription au Doctorat.</span>
-          <span data-lang="en">Maïngo Ködörö Faculty, created in partnership with the University of Bangui, is a center of excellence for training specialized executives in Educational Sciences. Our program includes one year of Higher Diploma in Research Preparation (DSPR), which serves as preparation for PhD registration.</span></p>
+          <p><span data-lang="fr">La Faculté Maïngo Ködörö est un centre d'excellence en Sciences de l'éducation créé à Bangui. D'inspiration Baha'ie, la Faculté vise à former des cadres spécialisés en Sciences de l'Éducation capables de contribuer aux activités éducatives et de développement humain durable au bénéfice des territoires de la République Centrafricaine et d'autres pays.</span>
+          <span data-lang="en">Maïngo Ködörö Faculty is a center of excellence in Educational Sciences created in Bangui. Baha'i-inspired, the Faculty aims to train specialized executives in Educational Sciences capable of contributing to educational activities and sustainable human development for the benefit of the territories of the Central African Republic and other countries.</span></p>
           <div class="alert-famako alert-warning mt-3">
             <i class="fas fa-exclamation-triangle"></i>
             <div><strong><span data-lang="fr">Important :</span><span data-lang="en">Important:</span></strong> <span data-lang="fr">Tous les étudiants doivent suivre et valider le DSPR avant d'accéder au Doctorat.</span><span data-lang="en">All students must complete and validate the DSPR before accessing the PhD.</span></div>
           </div>
         </div>
 
-        <div class="famako-card p-4">
-          <h3 style="color:var(--navy);margin-bottom:14px;"><i class="fas fa-book me-2" style="color:var(--accent)"></i><span data-lang="fr">Nos 13 disciplines</span><span data-lang="en">Our 13 disciplines</span></h3>
-          <div class="disciplines-grid">
-           <?php foreach ($disciplines as $d): ?>
-    <div class="disc-card">
-        <i class="<?= htmlspecialchars($d['icon'] ?? 'fa-folder') ?>"></i>
-        <span><?= htmlspecialchars($d['nom_fr'] ?? '') ?></span>
-    </div>
-<?php endforeach; ?>
-          </div>
-        </div>
+
       </div>
       <div class="col-lg-4">
         <div class="famako-card p-0">
@@ -67,7 +57,7 @@ require_once __DIR__ . '/../includes/header.php';
             <a href="<?= BASE_URL ?>/pages/inscription.php" class="btn-accent w-100 justify-content-center mb-2">
               <i class="fas fa-pen me-2"></i><span data-lang="fr">S'inscrire maintenant</span><span data-lang="en">Register now</span>
             </a>
-            <a href="<?= BASE_URL ?>/pages/frais.php" class="btn-outline-navy w-100 justify-content-center">
+            <a href="<?= BASE_URL ?>/pages/inscriptions.php" class="btn-outline-navy w-100 justify-content-center">
               <i class="fas fa-coins me-2"></i><span data-lang="fr">Voir les frais</span><span data-lang="en">See fees</span>
             </a>
           </div>

@@ -25,7 +25,7 @@
           <li><a href="<?= BASE_URL ?>/pages/historique.php">Histoire</a></li>
           <li><a href="<?= BASE_URL ?>/pages/cours.php">Cours</a></li>
           <li><a href="<?= BASE_URL ?>/pages/td.php">Travaux Dirigés</a></li>
-          <li><a href="<?= BASE_URL ?>/pages/frais.php">Frais</a></li>
+          <li><a href="<?= BASE_URL ?>/pages/inscriptions.php">Inscriptions</a></li>
           <li><a href="<?= BASE_URL ?>/pages/contact.php">Contact</a></li>
         </ul>
       </div>
@@ -36,7 +36,7 @@
           <li><a href="<?= BASE_URL ?>/pages/inscription.php">DSPR</a></li>
           <li><a href="<?= BASE_URL ?>/pages/inscription.php">Doctorat</a></li>
           <li><a href="<?= BASE_URL ?>/pages/cours.php">13 Disciplines</a></li>
-          <li><a href="<?= BASE_URL ?>/pages/frais.php">Frais & Paiement</a></li>
+          <li><a href="<?= BASE_URL ?>/pages/inscriptions.php">Frais & Paiement</a></li>
           <li><a href="<?= BASE_URL ?>/pages/inscription.php">S'inscrire</a></li>
         </ul>
       </div>
